@@ -50,7 +50,7 @@ export class AppComponent {
   }
 
   changeOptions() {
-    this.chartOption5 = Object.assign({}, this.chartOption5);
+    this.chartOption5 = Object.create({}, this.chartOption5);
     this.chartOption5.legend = { show: true };
     this.chartOption5.legend.data = [{ name: '直接访问', icon: 'circle' }];
     this.chartOption5.series = [];

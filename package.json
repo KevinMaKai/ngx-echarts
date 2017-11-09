@@ -6,7 +6,7 @@
     "link": "ngm link -p src --here",
     "build": "ngm build -p src --clean",
     "lite-server": "lite-server -c demo/server.config.js",
-    "demo:build": "ng build --prod",
+    "demo:build": "ng build --env=prod",
     "demo": "run-s build link demo:build lite-server"
   },
   "private": true,
@@ -38,7 +38,7 @@
     "@angular/core": "^2.3.1 || >=4.0.0",
     "echarts": ">=3.1.1"
   },
-  "dependencies": { },
+  "dependencies": {},
   "devDependencies": {
     "@angular/cli": "1.0.3",
     "@angular/common": "^4.0.0",
@@ -54,7 +54,7 @@
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
     "core-js": "^2.4.1",
-    "echarts": "^3.5.4",
+    "echarts": "^3.8.0",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",
