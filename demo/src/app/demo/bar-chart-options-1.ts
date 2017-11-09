@@ -30,7 +30,15 @@ export const BarChartOptions1 = () => ({
     {
       name: '直接访问',
       type: 'bar',
-      barWidth: '60%'
+      barWidth: '60%',
+       markLine: {
+                    data: [
+                        {
+                            yAxis: 50,
+                            name: "平均值"
+                        }
+                    ]
+                },
     }
   ]
 });

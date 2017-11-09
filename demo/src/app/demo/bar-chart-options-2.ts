@@ -59,7 +59,7 @@ export const BarChartOptions2 = {
       },
       markLine: {
         data: [
-          { type: 'average', name: '平均值' }
+          { yAxis:100, name: '平均值' }
         ]
       }
     }
